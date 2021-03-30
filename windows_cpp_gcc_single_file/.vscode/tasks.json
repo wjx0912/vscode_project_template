@@ -4,7 +4,7 @@
 		{
 			"type": "cppbuild",
 			"label": "C/C++: g++.exe build active file",
-			"command": "C:\\MinGW\\bin\\g++.exe",
+			"command": "g++.exe",
 			"args": [
 				"-g",
 				"${file}",
@@ -12,7 +12,12 @@
 				"${fileDirname}\\${fileBasenameNoExtension}.exe"
 			],
 			"options": {
-				"cwd": "${workspaceFolder}"
+				"cwd": "${workspaceFolder}",
+				"env": {
+					"PATH": "${env:PATH};C:\\MinGW\\bin",
+					"C_INCLUDE_PATH": "C:\\MinGW\\include;C:\\MinGW\\include\\freetype2",
+					"CPLUS_INCLUDE_PATH": "C:\\MinGW\\include;C:\\MinGW\\include\\freetype2"
+				    }
 			},
 			"problemMatcher": [
 				"$gcc"

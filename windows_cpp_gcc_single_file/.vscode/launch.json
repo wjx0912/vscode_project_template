@@ -12,10 +12,12 @@
                         "args": [],
                         "stopAtEntry": false,
                         "cwd": "${workspaceFolder}",
-                        "environment": [],
+                        "environment": [
+                                //{"PATH":"${env:PATH};C:\\MinGW\\bin"}
+                        ],
                         "externalConsole": false,
                         "MIMode": "gdb",
-                        "miDebuggerPath": "gdb.exe",
+                        "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
                         "setupCommands": [
                                 {
                                         "description": "Enable pretty-printing for gdb",
