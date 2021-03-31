@@ -1,13 +1,15 @@
-可能修改的地方：
+参考：
+
+https://code.visualstudio.com/docs/cpp/config-msvc
 
 
 
-c_cpp_properties.json
+依赖：
 
-compilerPath 和 intelliSenseMode 目前是x64
+visual studio 2019
+
+插件：C/C++ (by microsoft)
 
 
 
-tasks.json
-
-args路径：vcvarsall.bat 和 x64
+注意配置.vscode文件的变量

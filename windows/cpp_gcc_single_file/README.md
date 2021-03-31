@@ -4,9 +4,12 @@ https://code.visualstudio.com/docs/cpp/config-mingw
 
 
 
-mingw下载：
+依赖：
 
-https://nuwen.net/
+mingw下载：https://nuwen.net/
+
+插件：C/C++ (by microsoft)
 
 
 
+注意配置.vscode文件的变量
