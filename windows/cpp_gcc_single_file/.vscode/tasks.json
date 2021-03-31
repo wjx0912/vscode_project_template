@@ -1,0 +1,40 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: g++.exe build active file",
+			"command": "g++.exe",
+			"args": [
+				//"-Wall",
+				//"-Wunused-but-set-variable",
+				"-g",
+				"-municode",
+				"${file}",
+				"-lpng",	// libpng.lib
+				"-lz",		// libz.lib
+				"-lzstd",	// libzstd.lib
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}",
+				"env": {
+					"PATH": "${env:PATH};C:\\MinGW\\bin",
+					"C_INCLUDE_PATH": "C:\\MinGW\\include;C:\\MinGW\\include\\freetype2",
+					"CPLUS_INCLUDE_PATH": "C:\\MinGW\\include;C:\\MinGW\\include\\freetype2",
+					"LIBRARY_PATH": "C:\\MinGW\\lib",
+					"LD_LIBRARY_PATH": "C:\\MinGW\\lib"
+				    }
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: C:\\MinGW\\bin\\g++.exe"
+		}
+	]
+}

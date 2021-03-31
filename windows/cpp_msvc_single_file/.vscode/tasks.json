@@ -1,0 +1,40 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "C/C++: cl.exe build active file",
+			"command": "cl.exe",
+			"args": [
+				"/D",
+				"UNICODE",
+				"/Zi",
+				"/EHsc",
+				"/nologo",
+				"/Fe:",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe",
+				"${file}"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}",
+				"shell": {
+					"executable": "C:\\Windows\\System32\\cmd.exe",
+					"args": [
+					    "/d", "/c",
+					    "C:\\Program^ Files^ ^(x86^)\\Microsoft^ Visual^ Studio\\2019\\Enterprise\\VC\\Auxiliary\\Build\\vcvarsall.bat",
+					    "x64",
+					    "&&"
+					]
+				    }
+			},
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: cl.exe"
+		}
+	]
+}
