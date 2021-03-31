@@ -1,6 +1,6 @@
 参考：
 
-xxxx
+https://www.cnblogs.com/Laggage/p/11664299.html
 
 
 
@@ -10,7 +10,9 @@ mingw下载：https://nuwen.net/
 
 cmake下载：https://cmake.org/
 
-插件：C/C++ (by microsoft);  CMake Tools(by microsoft)
+插件：C/C++ (by microsoft);  CMake Tools(by microsoft); 
+
+CMake (by twxs)（这个只是语法着色用，也可以不安装）
 
 
 
