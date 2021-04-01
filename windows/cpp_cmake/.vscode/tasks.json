@@ -9,7 +9,14 @@
 				// 指令参数
 			],
 			"options": {
-				"cwd": "${workspaceFolder}"
+				"cwd": "${workspaceFolder}",
+				"env": {
+					"PATH": "${env:PATH};C:\\MinGW\\bin",
+					"C_INCLUDE_PATH": "C:\\MinGW\\include;C:\\MinGW\\include\\freetype2",
+					"CPLUS_INCLUDE_PATH": "C:\\MinGW\\include;C:\\MinGW\\include\\freetype2",
+					"LIBRARY_PATH": "C:\\MinGW\\lib",
+					"LD_LIBRARY_PATH": "C:\\MinGW\\lib"
+				}
 			},
 			"group": {
 				"kind": "build",
