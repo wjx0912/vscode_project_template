@@ -18,3 +18,7 @@ CMake (by twxs)（这个只是语法着色用，也可以不安装）
 
 注意配置.vscode文件的变量
 
+
+
+使用方法：CMakeLists.txt文件点右键，菜单选择“配置所有项目”，然后ctrl+shift+b编译
+
