@@ -1,9 +1,13 @@
-// #include <iostream>
-// using namespace std;
-// int main() {
-//     cout << "okok" << endl;
-//     cout << "okok" << endl;
-//     cout << "okok" << endl;
-//     cout << "okok" << endl;
-//     cout << "okok" << endl;
-// }
+#include <iostream>
+
+using namespace std;
+
+int start()
+{
+	cout << "okok" << endl;
+	cout << "okok" << endl;
+	cout << "okok" << endl;
+	cout << "okok" << endl;
+	cout << "okok" << endl;
+	return 0;
+}
