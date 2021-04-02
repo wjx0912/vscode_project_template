@@ -11,6 +11,8 @@
 			"options": {
 				"cwd": "${workspaceFolder}",
 				"env": {
+					"MAKEFLAGS": "-j8",
+					//"VERBOSE": "1",
 					"PATH": "${env:PATH};C:\\MinGW\\bin;C:\\Program Files\\CMake\\bin",
 					"C_INCLUDE_PATH": "C:\\MinGW\\include;C:\\MinGW\\include\\freetype2",
 					"CPLUS_INCLUDE_PATH": "C:\\MinGW\\include;C:\\MinGW\\include\\freetype2",
