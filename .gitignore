@@ -1,2 +1,3 @@
 *.exe
 windows/cpp_cmake/build
+windows/node.js/node_modules

@@ -4,4 +4,6 @@
  * This is the test JavaScript program used in jrunscript-f.sh
  */
 
-println('hello');
+console.log('hello');
+console.log('hello');
+console.log('hello');
