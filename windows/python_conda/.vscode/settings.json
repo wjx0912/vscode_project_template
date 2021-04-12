@@ -1,3 +1,22 @@
 {
-	"python.pythonPath": "C:\\Users\\wyt\\miniconda3\\pkgs\\python-3.9.1-h53c7b84_2\\python.exe"
+    "python.pythonPath": "C:/Users/wyt/anaconda3/envs/py392/python.exe",
+    //"python.condaPath": "C:/Users/wyt/anaconda3/Scripts/conda.bat",
+    //"python.condaPath": "/home/pcuser/anaconda3/condabin/conda",
+    //"python.pythonPath": "/home/pcuser/anaconda3/envs/my_env/bin/python",
+    //"python.terminal.activateEnvironment": true,
+    //"python.terminal.activateEnvInCurrentTerminal": true,
+
+    //"terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    //"terminal.integrated.shellArgs.windows": ["/K", "C:\\Miniconda3\\vscode_conda.bat"],
+
+    "terminal.integrated.shell.windows": "C:/Windows/System32/cmd.exe",
+    "terminal.integrated.shellArgs.windows": ["/K", "C:\\Users\\wyt\\anaconda3\\Scripts\\activate.bat C:\\Users\\wyt\\anaconda3  & conda activate py392"],
+    //"terminal.integrated.shellArgs.windows": ["/K", "C:/Users/wyt/anaconda3/Scripts/activate.bat", "C:/Users/wyt/anaconda3/envs/py392"],
+    "python.terminal.activateEnvironment": true,
+    "python.terminal.activateEnvInCurrentTerminal": true,
+
+    "code-runner.executorMap": { 
+	"python": "C:\\Users\\wyt\\anaconda3\\Scripts\\activate.bat C:\\Users\\wyt\\anaconda3  & conda activate py392 & python"
+     }
+    //"terminal.integrated.shellArgs.windows": ["/K", "C:\\Users\\wyt\\anaconda3\\Scripts\\activate.bat", "C:\\Users\\wyt\\anaconda3"],
 }
