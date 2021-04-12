@@ -8,8 +8,6 @@
 			"name": "Python: 当前文件",
 			"type": "python",
 			"request": "launch",
-			"env": {"PYTHONPATH": "${workspaceRoot}"},
-			//"env": {"PYTHONPATH": "${cwd}",
 			"program": "${file}",
 			"console": "integratedTerminal"
 		}
