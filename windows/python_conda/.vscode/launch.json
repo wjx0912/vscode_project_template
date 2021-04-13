@@ -9,6 +9,9 @@
 			"type": "python",
 			"request": "launch",
 			"program": "${file}",
+			"args": ["-p", "58080", 
+			    "--set", "D:/project/release-binrary/release/ca", 
+			    "-s", "D:/github/wjx0912/mingjie_famikit-lib/doc/mitm/test/filter.py"],
 			"console": "integratedTerminal"
 		}
 	]
