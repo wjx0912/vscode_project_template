@@ -8,6 +8,7 @@
 			"name": "Python: 当前文件",
 			"type": "python",
 			"request": "launch",
+			"cwd": "${workspaceRoot}",
 			"program": "${file}",
 			"args": ["-p", "58080", 
 			    "--set", "D:/project/release-binrary/release/ca", 
