@@ -30,3 +30,9 @@ CMake (by twxs)（这个只是语法着色用，也可以不安装）
 
 (4)unicode
 
+
+
+**注意的坑**
+
+不要在CMakeLists.txt点右键“生成所有项目”， 这会调用cmake插件自己的build，而不是tasks.json里面的command
+

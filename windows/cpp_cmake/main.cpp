@@ -25,12 +25,12 @@ int main()
 
 	// test libpng
 	char cbHeader[8];
-	png_sig_cmp( (png_const_bytep)cbHeader, 0, 8 );
+	png_sig_cmp((png_const_bytep)cbHeader, 0, 8);
 
 	// test zlib
-	unsigned char src[1024]={0},dst[1024]={0};
-	unsigned long srcLen=1024,dstLen;
-	compress(dst,&dstLen,src,srcLen);
+	unsigned char src[1024] = {0}, dst[1024] = {0};
+	unsigned long srcLen = 1024, dstLen;
+	compress(dst, &dstLen, src, srcLen);
 
 	int i = 1, j = 10;
 	swap(i, j);
