@@ -11,5 +11,18 @@
     "python.terminal.activateEnvInCurrentTerminal": true,
 
     "code-runner.executorMap": { "python": "C:/Users/wyt/anaconda3/Scripts/activate.bat py392 & python" },
-    "code-runner.runInTerminal": true
+    "code-runner.runInTerminal": true,
+
+    "search.exclude": {
+        "**/.git/": true,
+        "**/venv/": true,
+        "**/test/": true,
+        "**/build/": true
+    },
+    "files.watcherExclude": {
+        "**/.git/**": true,
+        "**/venv/**": true,
+        "**/test/**": true,
+        "**/build/**": true
+    }
 }

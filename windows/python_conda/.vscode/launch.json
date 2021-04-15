@@ -1,19 +1,19 @@
 {
-	// 使用 IntelliSense 了解相关属性。 
-	// 悬停以查看现有属性的描述。
-	// 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
-	"version": "0.2.0",
-	"configurations": [
-		{
-			"name": "Python: 当前文件",
-			"type": "python",
-			"request": "launch",
-			"cwd": "${workspaceRoot}",
-			"program": "${file}",
-			"args": ["-p", "58080", 
-			    "--set", "D:/project/release-binrary/release/ca", 
-			    "-s", "D:/github/wjx0912/mingjie_famikit-lib/doc/mitm/test/filter.py"],
-			"console": "integratedTerminal"
-		}
-	]
+    // 使用 IntelliSense 了解相关属性。
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: 当前文件",
+            "type": "python",
+            "request": "launch",
+            "justMyCode": false,
+            "env": { "PYTHONPATH": "${workspaceRoot}" },
+            "envFile": "${workspaceFolder}/.vscode/debug.env.txt",
+            "cwd": "${workspaceRoot}",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        }
+    ]
 }
