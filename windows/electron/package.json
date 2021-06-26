@@ -9,6 +9,5 @@
   "devDependencies": {},
   "dependencies": {
     "electron": "^13.1.4",
-    "@electron/remote": "^1.2.0"
   }
 }
