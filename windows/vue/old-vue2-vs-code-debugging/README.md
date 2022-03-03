@@ -34,44 +34,9 @@ vue ui或者命令行插件项目，参数：
 
 
 
-3.新建文件：vue.config.js 内容：
+3.新建文件：vue.config.js
 
-```
-module.exports = {
-  configureWebpack () {
-    return {
-      devtool: 'source-map'
-    }
-  }
-}
-```
-
-
-
-4.新建文件：.vscode/launch.json 内容：
-
-```
-{
-  "version": "0.2.0",
-  "configurations": [
-      {
-        "name": "Chrome (Launch)",
-        "type": "chrome",
-        "request": "launch",
-        "url": "http://localhost:8080",
-        "webRoot": "${workspaceFolder}",
-        "pathMapping": {
-          "/_karma_webpack_": "${workspaceFolder}"
-        },
-        "sourceMapPathOverrides": {
-          "webpack:///./src/*": "${webRoot}/src/*"
-        }
-      },
-  ]
-}
-```
-
-
+4.新建文件：.vscode/launch.json
 
 5.vscode安装插件：Debugger for Chrome
 
