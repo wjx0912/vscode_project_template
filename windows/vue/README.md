@@ -1,3 +1,5 @@
+vscode 内置的js debug完全兼容 vscode-chrome-debug插件
+
 
 
 ### old-vue2-vs-code-debugging
