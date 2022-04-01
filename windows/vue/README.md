@@ -16,6 +16,8 @@ https://github.com/tuner/vite-project-debugging
 
 vite-2.4.4
 
+步骤：先控制台npm run dev，然后f5执行launch.json
+
 
 
 ### vs-code-debugging
@@ -24,6 +26,8 @@ https://github.com/fearnycompknowhow/vs-code-debugging
 
 vue-3.0.0, cli-4.5.0, 使用vscode-chrome-debug插件
 
+步骤：先控制台npm run serve，然后f5执行launch.json
+
 
 
 ### vue-typescript-debugger
@@ -31,6 +35,8 @@ vue-3.0.0, cli-4.5.0, 使用vscode-chrome-debug插件
 https://github.com/fearnycompknowhow/vue-typescript-debugger
 
 vue-3.0.0, cli-5.0.0, typescript-4.5.5, 使用vscode内置js debug
+
+步骤：先控制台npm run serve，然后f5执行launch.json
 
 
 
