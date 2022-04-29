@@ -6,11 +6,12 @@
     "configurations": [
         {
             "name": "Python: 当前文件",
+            "python": "C:/Users/wyt/miniconda3/envs/py3912.test1/python.exe",
+            "envFile": "${workspaceFolder}/dev.env",
+            //"env": { "PYTHONPATH": "${workspaceRoot}" },
             "type": "python",
             "request": "launch",
             "justMyCode": false,
-            "env": { "PYTHONPATH": "${workspaceRoot}" },
-            "envFile": "${workspaceFolder}/.vscode/debug.env.txt",
             "cwd": "${workspaceRoot}",
             "program": "${file}",
             "console": "integratedTerminal"
