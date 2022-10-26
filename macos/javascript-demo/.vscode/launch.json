@@ -11,6 +11,7 @@
         "<node_internals>/**"
       ],
       "program": "${workspaceFolder}/src/index.js"
+      // 如果要调试当前文件，用${file}
     }
   ]
 }
