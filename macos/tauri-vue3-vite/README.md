@@ -20,3 +20,9 @@ You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/
 project create:
 
 npm create tauri-app@latest  tauri-vue3-vite
+
+cd tauri-vue3-vite
+
+npm i
+
+npm run tauri dev
