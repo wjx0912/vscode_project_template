@@ -1,0 +1,18 @@
+{
+  "c-cpp-compile-run.cpp-compiler": "/usr/bin/clang++",
+  "c-cpp-compile-run.c-flags": "-std=c11",
+  "c-cpp-compile-run.cpp-flags": "-std=c++17 -stdlib=libc++",
+  "C_Cpp.errorSquiggles": "enabled",
+  "editor.defaultFormatter": "ms-vscode.cpptools",
+  "editor.codeActionsOnSave": ["source.fixAll.format", "source.fixAll.eslint"],
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "editor.formatOnSave": true,
+  "clang-format.executable": "/usr/local/opt/llvm/bin/clang-format",
+  "doxdocgen.generic.authorEmail": "tekintian@gmail.com",
+  "doxdocgen.generic.authorName": "TekinTian",
+  "doxdocgen.generic.useGitUserEmail": true,
+  "doxdocgen.generic.useGitUserName": true,
+  "doxdocgen.file.copyrightTag": ["@copyright (C){year}  Tekin.cn All Right Reserved."]
+}
