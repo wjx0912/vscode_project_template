@@ -1,17 +1,13 @@
 {
     "configurations": [
         {
+            "name": "(OSX) Launch",
             "type": "lldb",
             "request": "launch",
-            "name": "Debug current examples file",
-            "cargo": {
-                "args": [
-                    "run",
-                    "--example",
-                    "${fileBasenameNoExtension}"                    
-                ]
-            },
-            "args": []
-        }  
+            "program": "${workspaceRoot}/target/debug/helloworld",
+            "args": [],
+            "cwd": "${workspaceRoot}/target/debug/",
+            "preLaunchTask": "rust: cargo build"
+        }
     ]
 }
